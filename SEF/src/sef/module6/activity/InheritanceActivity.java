@@ -8,11 +8,13 @@ public class InheritanceActivity {
 		
 		// Create Person object p. Write code to and set name of Person as Sarah Johnson
 		// and age as 21
-		
-		
-		
+		;
+		Person_I p = new Person_I();
+		p.setname("Sarah Johnson");
+		p.setage (21);
 		System.out.println("-----------------------------");
 		//Create Employee object e and 
+		Employee_I p = new Employee_I();
 		// set salary as 70000, title as Developer, age as 32 and name as Shawn Cun
 		
 		

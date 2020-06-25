@@ -12,12 +12,9 @@ public class NumToWords {
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) {
-		
-		
-				
-		int i = 8;
-		String numText = "";
+	public static void main(String[] args) {		
+		int i = 5;
+		String numText = "NUMBER";
 
 		switch(i) {
 		
@@ -31,14 +28,20 @@ public class NumToWords {
 			numText = "FOUR";break;
 		case 5:
 			numText = "FIVE";break;
+		case 6:
+			numText = "SIX";break;
+		case 7:
+			numText = "SEVEN";break;
+		case 8:
+			numText = "EIGHT";break;
+		case 9:
+			numText = "NINE";break;
 		// complete the code.
 		default:
-			numText = "NUMBER " + i;
+			numText = "NUMBER" + i;
 		}
 		
 		System.out.println(numText);
-		
-	
 	}
 	
 

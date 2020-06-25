@@ -30,11 +30,12 @@ public class Calculator {
 	}
 
 	private static int subtract(int x, int y) {
-		int diff = 0;
+		int diff = x-y;
 		if (x > y) {
-			// complete the code
+			return diff;
 		} else {
 			// complete the code
+			
 		}
 
 		return diff;
@@ -42,7 +43,6 @@ public class Calculator {
 
 	private static int multiply(int[] numbers) {
 		int temp = 1;
-
 		for (int i = 0; i < numbers.length; i++) {
 			temp = temp * numbers[i];
 		}

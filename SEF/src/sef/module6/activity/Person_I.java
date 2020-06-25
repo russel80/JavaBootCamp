@@ -9,14 +9,18 @@ public class Person_I {
 	private String name;
 	private int age;
 	
+	
+	
 	//Behavior - write default constructor. Print 'I'm Person_I constructor'
 	
-	
+	System.out.println ("I'm Person_I constructor")
 	//Behavior - write parameterized constructor
 	
 	
 	// write getter for String name
-	
+	public void getName(name) {
+		this.name = name;
+	}
 	
 	// write setter for String name
 	
