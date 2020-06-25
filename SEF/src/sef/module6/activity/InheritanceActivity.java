@@ -2,7 +2,7 @@ package sef.module6.activity;
 
 
 
-public class InheritanceActivity {
+public class InheritanceActivity extends Person_I{
 
 	public static void main(String[] args) {
 		
@@ -10,11 +10,11 @@ public class InheritanceActivity {
 		// and age as 21
 		;
 		Person_I p = new Person_I();
-		p.setname("Sarah Johnson");
-		p.setage (21);
+		p.setName ("Sarah Johnson");
+		p.setAge (21);
 		System.out.println("-----------------------------");
 		//Create Employee object e and 
-		Employee_I p = new Employee_I();
+		Employee_I e = new Employee_I();
 		// set salary as 70000, title as Developer, age as 32 and name as Shawn Cun
 		
 		

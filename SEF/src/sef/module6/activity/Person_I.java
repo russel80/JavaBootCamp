@@ -9,26 +9,45 @@ public class Person_I {
 	private String name;
 	private int age;
 	
+	Person_I p = new Person_I();
 	
 	
 	//Behavior - write default constructor. Print 'I'm Person_I constructor'
+	public Person_I(){
+		this.name="Unknown";
+		this.age = 0;
+		System.out.println("I'm Person_I constructor");
+	}
 	
-	System.out.println ("I'm Person_I constructor")
 	//Behavior - write parameterized constructor
-	
+	public Person_I(String name, int age){
+		this.name = name;
+		this.age = age;
+	}
 	
 	// write getter for String name
-	public void getName(name) {
-		this.name = name;
+	public String getname() {
+		return name;
 	}
 	
 	// write setter for String name
-	
+	public void setName(String name) {
+		this.name = name;
+	}
 
 	// write getter for int age
-	
+	public int getAge() {
+		return age;
+	}
 
 	// write setter for int age
-	
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}	
 }
 
