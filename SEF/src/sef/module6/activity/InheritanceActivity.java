@@ -8,7 +8,7 @@ public class InheritanceActivity extends Person_I{
 		
 		// Create Person object p. Write code to and set name of Person as Sarah Johnson
 		// and age as 21
-		;
+		
 		Person_I p = new Person_I();
 		p.setName ("Sarah Johnson");
 		p.setAge (21);
@@ -16,9 +16,10 @@ public class InheritanceActivity extends Person_I{
 		//Create Employee object e and 
 		Employee_I e = new Employee_I();
 		// set salary as 70000, title as Developer, age as 32 and name as Shawn Cun
-		
-		
-		
+		e.setSalary(70000);
+		e.setTitle("Developer");
+		e.setAge(32);
+		e.setName("Shawn Cun");
 		// Print Info using Employee object
 		System.out.println("-----------------------------");
 		System.out.println("Employee's Name is   : " + e.getName());

@@ -7,7 +7,6 @@ public class Employee_I extends Person_I {
 	private double salary;
 	private String title;
 	
-	Employee_I e = new Employee_I();
 	//Behavior - write default constructor. Print 'I'm an Employee_I Constructor'
 	public Employee_I(){ 
 		System.out.println("I'm an Employee_I Constructor"); 
@@ -31,9 +30,5 @@ public class Employee_I extends Person_I {
 	public void setTitle(String title) {
 		this.title = title;
 	}
-
-	public String getName() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	
 }

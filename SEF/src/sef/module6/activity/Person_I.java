@@ -9,14 +9,9 @@ public class Person_I {
 	private String name;
 	private int age;
 	
-	Person_I p = new Person_I();
-	
-	
 	//Behavior - write default constructor. Print 'I'm Person_I constructor'
 	public Person_I(){
-		this.name="Unknown";
-		this.age = 0;
-		System.out.println("I'm Person_I constructor");
+				System.out.println("I'm Person_I constructor");
 	}
 	
 	//Behavior - write parameterized constructor
@@ -26,7 +21,7 @@ public class Person_I {
 	}
 	
 	// write getter for String name
-	public String getname() {
+	public String getName() {
 		return name;
 	}
 	
@@ -45,9 +40,5 @@ public class Person_I {
 		this.age = age;
 	}
 
-	public String getName() {
-		// TODO Auto-generated method stub
-		return null;
-	}	
 }
 
