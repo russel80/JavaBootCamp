@@ -3,9 +3,18 @@ package sef.module8.sample;
 //Extending from Exception class makes CustomException a Checked Exception
 public class CustomException extends Exception{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -1316880289134084939L;
+
 	//1 - Override the toString method of Exception.
 	//This message gets printed as soon as CustomException is thrown.
 	
+
+	/**
+	 * 
+	 */
 
 	//You can also write more information about this exception in getMessage()
 	//2 - Override getMessage()
