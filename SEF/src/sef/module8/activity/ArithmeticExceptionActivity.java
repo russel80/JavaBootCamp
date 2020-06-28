@@ -3,7 +3,7 @@ package sef.module8.activity;
 public class ArithmeticExceptionActivity {
 	//1 - Type main method and call catchMe with 10 and 0
 
-	public static void main(String[] args) {
+ public static void main(String[] args) {
 		ArithmeticExceptionActivity result=new ArithmeticExceptionActivity();
 		result.catchMe(10, 0);}
 	
