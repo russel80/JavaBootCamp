@@ -11,7 +11,7 @@ public class MapSample {
 	public static void main(String[] args) {
 			
 		Map map = new HashMap();
-		map.put("1", "A String");
+		map.put("1", "1 String");
 		map.put("2", new Date());
 		map.put("3", new Integer(42));
 		map.put("4", new Float(23.0f));
