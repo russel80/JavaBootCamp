@@ -19,7 +19,7 @@ void catchMe(int num1, int num2) {
 	//prints a message "Thank you for using this program."
 	
 	//4- try to call catchMe with 10 and 2 now and see which messages get printed. 
-	}catch (Exception a) {
+	}catch (ArithmeticException a) {
 		System.out.println("Can not divide by 0");
 	}finally{
 		System.out.println("Thank you for using this program.");
