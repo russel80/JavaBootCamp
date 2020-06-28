@@ -7,13 +7,13 @@ public class ArithmeticExceptionActivity {
 		ArithmeticExceptionActivity result=new ArithmeticExceptionActivity();
 		result.catchMe(10, 0);}
 	
-void catchMe(int num1, int num2) {
-	try {
+	void catchMe(int num1, int num2) {
+		try {
 	//The following code results in an Exception.
 	//2 - Identify the exception and write code to handle this exception.
 
-	int result=num1/num2;
-	System.out.println("The result is :" + result);
+			int result=num1/num2;
+			System.out.println("The result is :" + result);
 	
 	//3 - After handling the exception, write a finally block which
 	//prints a message "Thank you for using this program."
